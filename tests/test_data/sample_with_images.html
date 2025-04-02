@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Document with Images</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2, h3 {
+            color: #333;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px 0;
+        }
+        .inline-image {
+            display: inline;
+            margin: 0 5px;
+            vertical-align: middle;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sample HTML Document with Images</h1>
+    
+    <p>This is a sample HTML document with images for testing DocMark.</p>
+    
+    <h2>Inline Images</h2>
+    
+    <p>Here's an inline image:</p>
+    
+    <img src="https://via.placeholder.com/300x200" alt="Sample Image 1">
+    
+    <p>And another one:</p>
+    
+    <img src="https://via.placeholder.com/400x300" alt="Sample Image 2">
+    
+    <h2>Images with Captions</h2>
+    
+    <figure>
+        <img src="https://via.placeholder.com/500x300" alt="Image with caption">
+        <figcaption>This is a caption for the image above</figcaption>
+    </figure>
+    
+    <h2>Images in Lists</h2>
+    
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2 with image: <img src="https://via.placeholder.com/200x100" alt="List Image" class="inline-image"></li>
+        <li>Item 3</li>
+    </ul>
+    
+    <h2>Images in Tables</h2>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Description</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Image in table</td>
+                <td><img src="https://via.placeholder.com/150x150" alt="Table Image"></td>
+            </tr>
+            <tr>
+                <td>Another image</td>
+                <td><img src="https://via.placeholder.com/150x150" alt="Another Table Image"></td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <h2>Local Images</h2>
+    
+    <p>If local images are available, they would be referenced like this:</p>
+    
+    <img src="./media/local_image.png" alt="Local Image">
+    
+    <h2>Images with Different Formats</h2>
+    
+    <img src="https://via.placeholder.com/200x200.png" alt="PNG Image">
+    
+    <img src="https://via.placeholder.com/200x200.jpg" alt="JPG Image">
+    
+    <img src="https://via.placeholder.com/200x200.gif" alt="GIF Image">
+    
+    <h2>Images with Special Characters in Alt Text</h2>
+    
+    <img src="https://via.placeholder.com/250x150" alt="Image with *special* **characters** in alt text">
+    
+    <img src="https://via.placeholder.com/250x150" alt="Image with [brackets] in alt text">
+    
+    <h2>Images with URLs in Alt Text</h2>
+    
+    <img src="https://via.placeholder.com/250x150" alt="Image with https://example.com in alt text">
+    
+    <h2>Multiple Images in a Row</h2>
+    
+    <div>
+        <img src="https://via.placeholder.com/100x100" alt="Row Image 1" class="inline-image">
+        <img src="https://via.placeholder.com/100x100" alt="Row Image 2" class="inline-image">
+        <img src="https://via.placeholder.com/100x100" alt="Row Image 3" class="inline-image">
+    </div>
+    
+    <h2>Images with No Alt Text</h2>
+    
+    <img src="https://via.placeholder.com/200x200" alt=" ">
+    
+    <img src="https://via.placeholder.com/200x200">
+    
+    <h2>Data URI Image</h2>
+    
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+P+/HgAFdwI2QOQvhAAAAABJRU5ErkJggg==" alt="Data URI Image">
+</body>
+</html>

@@ -1,0 +1,20 @@
+click
+mammoth
+markdownify
+markdown
+python-docx
+beautifulsoup4
+Pillow
+requests
+exifread
+
+# Optional LLM dependencies
+# openai
+# anthropic
+
+# Optional PDF dependencies (choose based on needs)
+# pdfminer.six
+# pypdf
+# pdfplumber
+# pdf2image
+# pytesseract
